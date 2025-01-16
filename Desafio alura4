@@ -1,0 +1,57 @@
+console.log('Bão dia!')
+//--------------------------------------------------------------------
+let Nome = 'Hyago'
+console.log(`Ola, ${Nome}`)
+//--------------------------------------------------------------------
+alert(`Ola ${Nome}`)
+//--------------------------------------------------------------------
+let Favorito = prompt('Qual seu Linguagem de Programação favorito?')
+console.log(Favorito)
+//--------------------------------------------------------------------
+let ValorUm = 7
+let ValorDois = 5
+let Resultado = ValorUm + ValorDois 
+console.log(Resultado)
+//--------------------------------------------------------------------
+let ValorU = 18
+let ValorD = 11
+let Result =  ValorU - ValorD
+console.log(Result)
+//--------------------------------------------------------------------
+let Idade = prompt('Quantos anos você tem?')
+let MM = Idade < 18 ? 'menor de idade' : 'maior de idade'
+console.log(`Com ${Idade} anos, você é ${MM}`)
+
+if (Idade < 18){ (Outra forma de fazer)
+    console.log(`Com ${Idade} anos, você é menor de idade`)
+} else{
+    console.log(`Com ${Idade} anos, você é maior de idade`)
+}
+//--------------------------------------------------------------------
+let Numero = prompt('Digite um numero e descurbiremos se é Positivo ou Negativo')
+if (Numero > 0){
+    console.log(`O numero digitado (${Numero}) é positivo`)
+} else if(Numero == 0){
+    console.log(`O numero digitado foi 0, muitos consideram posito ou um numero neutro`)
+} else{
+    console.log(`O numero digitado (${Numero}) é negativo`)
+}
+//--------------------------------------------------------------------
+let Numero = 0
+while (Numero != 10){
+    Numero++
+    console.log(Numero)
+}
+//--------------------------------------------------------------------
+let Nota = prompt('Quanto você tirou?')
+let teste = Nota >= 7 ? 'Aprovado!' : 'Reprovado!'
+console.log(teste)
+//--------------------------------------------------------------------
+let Numero = Math.random()
+console.log(Numero)
+//--------------------------------------------------------------------
+let Numero = parseInt(Math.random() * 10 + 1)
+console.log(Numero)
+//--------------------------------------------------------------------
+let Numero = parseInt(Math.random() * 1000 + 1)
+console.log (Numero)
